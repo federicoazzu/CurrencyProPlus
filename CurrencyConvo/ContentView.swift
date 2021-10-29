@@ -58,9 +58,9 @@ struct ContentView: View {
                     }
                 }
                 Section(header: Text("Conversion")) {
-                    Text("\(convert(amount)) \(currencies[itemSelected])")
+                    Text("\(convert(amount)) \(currencies[itemSelected2])")
                 }
-                .navigationTitle("Currency Converter")
+                .navigationTitle("Currency Pro +")
             }
         }
     }
