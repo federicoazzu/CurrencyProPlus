@@ -15,7 +15,7 @@ struct ContentView: View {
     
     func convert(_ convert: String) -> String {
         var conversion: Double  = 1.0
-        let amount = Double(convert) ?? 0.0
+        let amount = Double(convert.doubleValue)
         let selectedCurrency = currencies[itemSelected]
         let to = currencies[itemSelected2]
         
